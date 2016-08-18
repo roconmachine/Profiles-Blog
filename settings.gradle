@@ -1,5 +1,4 @@
-rootProject.name = 'Profiles-Blog'
+rootProject.name = 'spring-starter'
 
-include 'Profiles-Blog-Common'
-include 'Profiles-Blog-Sender'
-include 'Profiles-Blog-Receiver'
+include 'app-api'
+

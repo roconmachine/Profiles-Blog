@@ -1,0 +1,8 @@
+description = 'app-api'
+
+apply plugin: 'war'
+
+war {
+    baseName = 'app-api'
+    version = version
+}

@@ -1,0 +1,31 @@
+description = 'app-api'
+
+apply plugin: 'war'
+
+war {
+    baseName = 'app-api'
+    version = version
+}
+
+dependencies {
+    //providedCompile 'org.springframework.boot:spring-boot-starter-tomcat'
+    //compile 'mysql:mysql-connector-java:5.1.6'
+}
+
+/* Ensure each project uses a different remote debug port
+  def remoteDebugPort = '5009'
+
+  if (!project.hasProperty('prod')) {
+      bootRun.jvmArgs = ["-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=" + remoteDebugPort]
+  }
+
+
+  task deploy (dependsOn: war){
+      copy {
+          from "build/libs"
+          into "C:/dev/jetty-distribution-9.1.4.v20140401/webapps"
+          include "*.war"
+      }
+  } */
+
+
