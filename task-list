@@ -1,0 +1,15 @@
+1. make slim
+    a. remove gradle wrapper and other files
+2. gradle files re-organize
+    //a. all jar/libs are added in root file and module gradle add in the compile tag(done)
+    b. version controll for project
+    c. deployment script
+3. seed modules
+    a. api-common : common codes
+    b. api-core : {exception handling, error codes, }
+    c. api-models : {db entities, repositories, domain models}
+    d. api-gateway : {for external communication}
+    e. set index.jsp with vertion infos
+4. web-seed
+    a. a single page design creating with angular 2/1
+    b.
