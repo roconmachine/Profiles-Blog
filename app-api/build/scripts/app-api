@@ -157,4 +157,4 @@ function splitJvmOpts() {
 eval splitJvmOpts $DEFAULT_JVM_OPTS $JAVA_OPTS $APP_API_OPTS
 
 
-exec "$JAVACMD" "${JVM_OPTS[@]}" -classpath "$CLASSPATH" app.roconmachine.com.ApiApplication "$@"
+exec "$JAVACMD" "${JVM_OPTS[@]}" -classpath "$CLASSPATH" app.roconmachine.api.ApiApplication "$@"

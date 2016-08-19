@@ -5,9 +5,6 @@ allprojects {
     apply plugin: 'eclipse'
     apply plugin: 'idea'
 
-//    task wrapper(type: Wrapper) {
-//        gradleVersion = '2.1'
-//    }
 }
 
 description = 'spring-starter'
@@ -15,7 +12,6 @@ description = 'spring-starter'
 buildscript {
     ext {
         springBootVersion = '1.2.3.RELEASE'
-//        projectVersion = '0.0.0'
     }
     repositories {
         mavenLocal()
