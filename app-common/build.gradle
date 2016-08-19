@@ -1,0 +1,20 @@
+description = 'app-common'
+//
+//apply plugin: 'war'
+//apply plugin: 'spring-boot'
+//war {
+//    baseName = 'app-api'
+//    version = version
+//}
+
+dependencies {
+    compile libraries.commons
+//    compile libraries.spring
+//
+//    providedCompile libraries.springTomcat
+
+}
+
+
+
+
