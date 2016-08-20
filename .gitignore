@@ -21,3 +21,8 @@
 # IntelliJ Files #
 .idea
 *.iml
+
+/build
+/app-api/build
+/app-commons/build
+

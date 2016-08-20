@@ -26,6 +26,8 @@ ext.libraries =[
         springTomcat:'org.springframework.boot:spring-boot-starter-web'
 ]
 
+
+
 subprojects {
     group = 'app.roconmachine.com'
     version = '0.0.0'
