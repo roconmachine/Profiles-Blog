@@ -20,6 +20,9 @@ ext.libraries =[
                 'org.springframework.boot:spring-boot-starter-web',
                 'org.springframework.boot:spring-boot-starter-actuator'
         ],
+        spring_core:[
+                'org.springframework:spring-core:4.3.2.RELEASE'
+        ],
         springTomcat:'org.springframework.boot:spring-boot-starter-web'
 ]
 
@@ -28,7 +31,7 @@ subprojects {
     version = '0.0.0'
 
     apply plugin: 'java'
-    apply plugin: 'war'
+//    apply plugin: 'war'
     sourceCompatibility = 1.8
     targetCompatibility = 1.8
     repositories {

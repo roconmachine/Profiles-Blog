@@ -11,6 +11,7 @@ dependencies {
     compile libraries.commons
     compile libraries.spring
 
+    compile project(':app-commons')
     providedCompile libraries.springTomcat
 
 }

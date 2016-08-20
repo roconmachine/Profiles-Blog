@@ -1,8 +1,9 @@
 package app.roconmachine.api.endpoint;
 
-import app.roconmachine.common.Utils;
+
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import com.roconmachine.commons.Utils;
 
 import java.util.Properties;
 

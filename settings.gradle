@@ -1,5 +1,9 @@
 rootProject.name = 'spring-starter'
+include 'app-commons'
+findProject(':app-commons')?.name = 'com.roconmachine.commons'
+//project(':app-commons').projectDir = new File('app-commons');
 
 include ':app-api'
-include ':app-common'
+
+
 
