@@ -1,0 +1,9 @@
+description = 'app-commons'
+//apply plugin 'jar'
+//jar{
+//
+//}
+dependencies {
+    compile libraries.commons
+    compile libraries.spring_core
+}
