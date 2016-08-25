@@ -13,8 +13,15 @@ dependencies {
 
     providedCompile libraries.springTomcat
 
+
+
 }
 
 
+task deployToTomcat(type: Copy) {
+    from war.archivePath
+    into "${serverDeploymentLocation}"
+}
 
 
+build.finalizedBy(deployToTomcat)
