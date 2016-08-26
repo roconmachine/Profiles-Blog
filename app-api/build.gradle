@@ -11,7 +11,7 @@ dependencies {
     compile libraries.commons
     compile libraries.spring
 
-    providedCompile libraries.springTomcat
+    //providedCompile libraries.springTomcat
 
 
 
